@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="M_Adnan">
+	<title>ABC PLANT SHOP</title>
+
+	<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+	<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/ionicons.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+
+	<!-- JavaScripts -->
+	<script src="js/modernizr.js"></script>
+
+	<!-- Online Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+	<!-- LOADER -->
+	<div id="loader">
+		<div class="position-center-center">
+			<div class="ldr"></div>
+		</div>
+	</div>
+
+	<!-- Wrap -->
+	<div id="wrap">
+
+		<!-- header -->
+		<header th:replace="~{/site/fragments/header :: header}"></header>
+		<!--======= HOME MAIN SLIDER =========-->
+		<section class="home-slider">
+
+			<!-- SLIDE Start -->
+			<div class="tp-banner-container">
+				<div class="tp-banner">
+					<ul>
+						<!-- SLIDE  -->
+						<li data-transition="random" data-slotamount="7" data-masterspeed="300"
+							data-saveperformance="off">
+							<!-- MAIN IMAGE -->
+							<img src="images/slide-2.jpg" alt="slider" data-bgposition="center center"
+								data-bgfit="cover" data-bgrepeat="no-repeat">
+							<!-- LAYERS -->
+							<!-- LAYER NR. 1 -->
+							<div class="tp-caption font-playfair sfb tp-resizeme" data-x="left" data-hoffset="0"
+								data-y="center" data-voffset="-200" data-speed="800" data-start="500"
+								data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none"
+								data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
+								style="z-index: 7; font-size:80px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap; text-transform:uppercase;">
+								ABC</div>
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption sfl font-extra-bold tp-resizeme" data-x="left" data-hoffset="0"
+								data-y="center" data-voffset="-120" data-speed="800" data-start="800"
+								data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none"
+								data-elementdelay="0.07" data-endelementdelay="0.1" data-endspeed="300"
+								style="z-index: 6; font-size:80px; color:rgb(33, 50, 73); text-transform:uppercase; white-space: nowrap;">
+								For</div>
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption sfr font-extra-bold tp-resizeme" data-x="left" data-hoffset="0"
+								data-y="center" data-voffset="0" data-speed="800" data-start="800"
+								data-easing="Power3.easeInOut" data-splitin="chars" data-splitout="none"
+								data-elementdelay="0.07" data-endelementdelay="0.1" data-endspeed="300"
+								style="z-index: 6; font-size:120px; color:#fff; text-transform:uppercase; white-space: nowrap;">
+								plant </div>
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption sfr font-extra-bold tp-resizeme" data-x="left" data-hoffset="0"
+								data-y="center" data-voffset="110" data-speed="800" data-start="1300"
+								data-easing="Power3.easeInOut" data-splitin="chars" data-splitout="none"
+								data-elementdelay="0.07" data-endelementdelay="0.1" data-endspeed="300"
+								style="z-index: 6; font-size:120px; color:#fff; text-transform:uppercase; white-space: nowrap;">
+								lovers </div>
+							<!-- LAYER NR. 4 -->
+							<div class="tp-caption lfb tp-resizeme" data-x="left" data-hoffset="0" data-y="center"
+								data-voffset="240" data-speed="800" data-start="2200" data-easing="Power3.easeInOut"
+								data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
+								data-scrolloffset="0" style="z-index: 8;"><a href="#." class="btn">SHOP NOW</a> </div>
+						</li>
+
+						<!-- SLIDE  -->
+						<li data-transition="random" data-slotamount="7" data-masterspeed="300"
+							data-saveperformance="off">
+							<!-- MAIN IMAGE -->
+							<img src="images/slide-1.jpg" alt="slider" data-bgposition="center center"
+								data-bgfit="cover" data-bgrepeat="no-repeat">
+							<!-- LAYERS -->
+							<!-- LAYER NR. 1 -->
+							<div class="tp-caption font-playfair sfb tp-resizeme" data-x="center" data-hoffset="0"
+								data-y="center" data-voffset="-150" data-speed="800" data-start="500"
+								data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none"
+								data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
+								style="z-index: 7; font-size:18px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">
+								Best Plants from ABC</div>
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption sfr font-regular tp-resizeme letter-space-4" data-x="center"
+								data-hoffset="0" data-y="center" data-voffset="-50" data-speed="800" data-start="800"
+								data-easing="Power3.easeInOut" data-splitin="chars" data-splitout="none"
+								data-elementdelay="0.07" data-endelementdelay="0.1" data-endspeed="300"
+								style="z-index: 6; font-size:78px; color:#fff; text-transform:uppercase; white-space: nowrap;">
+								Decoration </div>
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption sfr font-extra-bold tp-resizeme letter-space-4" data-x="center"
+								data-hoffset="0" data-y="center" data-voffset="60" data-speed="800" data-start="1300"
+								data-easing="Power3.easeInOut" data-splitin="chars" data-splitout="none"
+								data-elementdelay="0.07" data-endelementdelay="0.1" data-endspeed="300"
+								style="z-index: 6; font-size:140px; color:#fff; text-transform:uppercase; white-space: nowrap;">
+								for your house </div>
+							<!-- LAYER NR. 4 -->
+							<div class="tp-caption sfb font-extra-bold tp-resizeme" data-x="center" data-hoffset="120"
+								data-y="center" data-voffset="200" data-speed="800" data-start="2200"
+								data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none"
+								data-elementdelay="0.07" data-endelementdelay="0.1" data-endspeed="300"
+								style="z-index: 6; font-size:60px; color:#fff; text-transform:uppercase; white-space: nowrap;">
+								<small class="font-regular">From $</small>20
+							</div>
+							<!-- LAYER NR. 4 -->
+							<div class="tp-caption lfb tp-scrollbelowslider tp-resizeme" data-x="center"
+								data-hoffset="-120" data-y="center" data-voffset="200" data-speed="800"
+								data-start="2200" data-easing="Power3.easeInOut" data-elementdelay="0.1"
+								data-endelementdelay="0.1" data-endspeed="300" data-scrolloffset="0"
+								style="z-index: 8;"><a href="#." class="btn">BUY NOW</a> </div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- Content -->
+		<div id="content">
+
+			<!-- Products -->
+			<section class="shop-page padding-top-100 padding-bottom-100">
+				<div class="container">
+					<div class="row">
+
+						<!-- Shop SideBar -->
+						<div class="col-sm-3">
+							<div class="shop-sidebar">
+								<!-- CATEGORY -->
+								<h5 class="shop-tittle margin-bottom-30">Category</h5>
+								<ul class="shop-cate">
+									<li th:each="item : ${categoryList}">
+										<a th:href="@{/productByCategory(id=${item.CategoryId})}">[[${item.categoryName}]]
+										</a>
+									</li>
+								</ul>
+
+								<!-- SIDE BAR BANER -->
+								<div class="side-bnr margin-top-50"> <img class="img-responsive"
+										src="images/sidebar-banner.jpeg" alt="">
+									<div class="position-center-center"> <span class="price"><small>$</small>299</span>
+										<div class="bnr-text">Free delivery
+											from
+											$50</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Item Content -->
+						<div class="col-sm-9">
+							<div class="item-display">
+								<div class="row">
+									<div class="col-xs-6"> <span class="product-num">Showing 1 - 9 products</span>
+									</div>
+
+									<!-- Products Select -->
+									<div class="col-xs-6">
+										<div class="pull-right">
+
+											<!-- GRID & LIST -->
+											<a href="#." class="grid-style"><i class="icon-grid"></i></a> <a href="#."
+												class="list-style"><i class="icon-list"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Popular Item Slide -->
+							<div class="papular-block row">
+
+								<!-- Item -->
+								<div class="col-md-4" th:each="item : ${productList}">
+									<div class="item">
+										<!-- Sale Tags -->
+										<div class="on-sale"> [[${#numbers.formatDecimal(item.discount, 1, 'DEFAULT', 0,
+											'DEFAULT')} + '%']] <span>OFF</span></div>
+
+										<!-- Item img -->
+										<div class="item-img">
+											<img class="img-1" th:src="@{'/loadImage?imageName='+${item.image}}" alt=""
+												height=300px width=300px>
+											<img class="img-2" th:src="@{'/loadImage?imageName='+${item.image}}" alt=""
+												height=300px width=300px>
+											<!-- Overlay -->
+											<div class="overlay">
+												<div class="position-center-center">
+													<div class="inn">
+														<a th:href="@{'/loadImage?imageName='+${item.image}}"
+															data-lighter data-toggle="tooltip" data-placement="top"
+															title="Detail">
+															<i class="icon-magnifier"></i>
+														</a>
+														<a th:href="@{/addToCart(productId=${item.productId})}"
+															data-toggle="tooltip" data-placement="top"
+															title="Add To Cart">
+															<i class="icon-basket"></i>
+														</a>
+														<a href="#." data-toggle="tooltip" data-placement="top"
+															title="Add To WishList">
+															<i class="icon-heart"></i>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- Item Name -->
+										<div class="item-name"> <a
+												th:href="@{/productDetail(id=${item.productId})}">[[${item.name}]]</a>
+
+										</div>
+
+										<!-- Price -->
+										<span class="price">
+
+											<small>$</small><span
+												style="text-decoration: line-through!important; text-decoration-color:red!important; color: gray;">[[${#numbers.formatDecimal(item.price,
+												1, 'DEFAULT', 0, 'DEFAULT')}]]</span> -
+
+											<!-- price - discount -->
+											<small>$</small>[[${#numbers.formatDecimal(item.price - (item.price *
+											item.discount/100), 1, 'DEFAULT', 0, 'DEFAULT')}]]
+										</span>
+
+									</div>
+								</div>
+
+								<!-- Pagination -->
+								<!-- <ul class="pagination in-center">
+              <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
+              <li class="active"><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+            </ul> -->
+
+								<ul class="pagination in-center">
+									<li class="page-item" th:if="${productList.totalPages > 0}"
+										th:each="pageNumber : ${pageNumbers}">
+										<a th:href="@{/products(size=${productList.size}, page=${pageNumber})}"
+											th:text=${pageNumber}
+											th:class="${pageNumber==productList.number + 1} ? active" class="page-link">
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+		</div>
+
+		<!--======= FOOTER =========-->
+		<footer th:replace="~{/site/fragments/footer :: footer}"></footer>
+
+		<!--======= RIGHTS =========-->
+
+	</div>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/own-menu.js"></script>
+	<script src="js/jquery.lighter.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+
+	<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+	<script type="text/javascript" src="rs-plugin/js/jquery.tp.t.min.js"></script>
+	<script type="text/javascript" src="rs-plugin/js/jquery.tp.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

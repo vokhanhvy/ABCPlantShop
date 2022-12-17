@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="sidebar sidebar-style-2" th:fragment="navbar">			
+		<div class="sidebar-wrapper scrollbar scrollbar-inner">
+			<div class="sidebar-content">
+				<ul class="nav nav-primary">
+					<li class="nav-item">
+						<a data-toggle="collapse" href="#dashboard" class="collapsed" aria-expanded="false">
+							<i class="fas fa-home"></i>
+							<p>Administrator</p>
+							<span class="caret"></span>
+						</a>
+						<div class="collapse" id="dashboard">
+							<ul class="nav nav-collapse">
+								<li>
+									<a th:href="@{/admin}">
+										<span class="sub-item">Administrator</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a data-toggle="collapse" href="#tables">
+							<i class="fas fa-table"></i>
+							<p>Management System</p>
+							<span class="caret"></span>
+						</a>
+						<div class="collapse" id="tables">
+							<ul class="nav nav-collapse">
+								<li>
+									<a th:href="@{/admin/categories}">
+										<span class="sub-item">Categories</span>
+									</a>
+								</li>
+								<li>
+									<a th:href="@{/admin/products}">
+										<span class="sub-item">Products</span>
+									</a>
+								</li>
+								<li>
+									<a th:href="@{/admin/orders}">
+										<span class="sub-item">Orders</span>
+									</a>
+								</li>
+								<li>
+									<a th:href="@{/admin/customers}">
+										<span class="sub-item">Customers</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a data-toggle="collapse" href="#charts">
+							<i class="far fa-chart-bar"></i>
+							<p>Revenue</p>
+							<span class="caret"></span>
+						</a>
+						<div class="collapse" id="charts">
+							<ul class="nav nav-collapse">								
+								<li>
+									<a th:href="@{/admin/reports}">
+										<span class="sub-item">By Product</span>
+									</a>
+								</li>
+								<li>
+									<a th:href="@{/admin/reportCategory}">
+										<span class="sub-item">By Category</span>
+									</a>
+								</li>
+								<li>
+									<a th:href="@{/admin/reportYear}">
+										<span class="sub-item">Annually</span>
+									</a>
+								</li>
+								<li>
+									<a th:href="@{/admin/reportMonth}">
+										<span class="sub-item">Monthly</span>
+									</a>
+								</li>
+								<li>
+									<a th:href="@{/admin/reportQuarter}">
+										<span class="sub-item">Quarterly</span>
+									</a>
+								</li>
+								<li>
+									<a th:href="@{/admin/reportOrderCustomer}">
+										<span class="sub-item">By Customer</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
